@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1453773597 source:c:\users\brian\programming\cs_317\ch 14\workscheduler3\workday.cpp
+	"WorkDay.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+
+1453734646 c:\users\brian\programming\cs_317\ch 14\workscheduler3\workday.h
+	"Employee.h"
+	"Shift.h"
+	<string>
+	<iostream>
+
+1453689079 source:c:\users\brian\programming\cs_317\ch 14\workscheduler3\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	"WorkDay.h"
+	"Employee.h"
+
+1453773546 source:c:\users\brian\programming\cs_317\ch 14\workscheduler3\employee.cpp
+	"Employee.h"
+	<string>
+
+1453773546 c:\users\brian\programming\cs_317\ch 14\workscheduler3\employee.h
+	<iostream>
+	<string>
+
+1453773546 c:\users\brian\programming\cs_317\ch 14\workscheduler3\shift.h
+	<string>
+
+1453773546 source:c:\users\brian\programming\cs_317\ch 14\workscheduler3\shift.cpp
+	"Shift.h"
+	<iostream>
+	<string>
+
