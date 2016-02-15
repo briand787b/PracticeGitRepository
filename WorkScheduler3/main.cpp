@@ -14,6 +14,7 @@ int main()
     unsigned seed = time(0);
     srand(seed);
 
+    //Initialize workdays with predetermined shift combinations (according to day)
     WorkDay sun(sunday);
     WorkDay mon(monday);
     WorkDay tue(tuesday);

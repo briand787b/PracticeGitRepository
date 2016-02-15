@@ -67,8 +67,7 @@ WorkDay::WorkDay(int dayType)
         (shiftArrPTR+6)->setShift(14.50, 22.50);
     }
     else{
-        cout << "You dun' goofed.  Try putting in valid"
-            << " responses next time, retard.\n";
+        cout << "Invalid input!!!\n";
     }
 }
 
@@ -77,6 +76,11 @@ WorkDay::~WorkDay()
     //dtor
 }
 
+//***********************************************************
+//Function:  setEmployees
+//Purpose:  randomly assign different employees to all available
+//shifts for that day, with no duplicates
+//***********************************************************
 void WorkDay::setEmployees(Employee* emp, int numEmps)
 {
     //to keep a log of numbers already used
@@ -97,6 +101,11 @@ void WorkDay::setEmployees(Employee* emp, int numEmps)
     logDynArr = NULL;
 }
 
+//**********************************************************
+//Function:  displayShift
+//Purpose:  display the names assigned to each shift
+//for the workday
+//**********************************************************
 void WorkDay::displayShift(int shiftNum)
 {
     cout << "\n\tShift Schedule\n";

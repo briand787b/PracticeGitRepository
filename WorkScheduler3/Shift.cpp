@@ -30,6 +30,11 @@ string Shift::getName()
     return name;
 }
 
+//************************************************************
+//Function:  civTimeConv
+//Purpose:  Converts the military time that the computer uses
+//to civilian (12 hour) time.
+//************************************************************
 void Shift::civTimeConv()
 {
     double temp1;
